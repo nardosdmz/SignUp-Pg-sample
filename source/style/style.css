@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #9b59b6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+	overflow: hidden;
+	background-color: #fff;
+	width: 400px;
+	max-width: 100%;
+	margin: 0 auto;
+	border-radius: 7px;
+	box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.3);
+}
+.header {
+	background-color: #eee5e5;
+	padding: 20px 40px;
+	border-bottom: 1px solid #e6fdf900;
+}
+.header h2 {
+	margin: 0;
+}
+.form {
+	padding: 30px 40px;
+}
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.form-control label {
+	display: block;
+	margin-bottom: 3px;
+}
+.form-control input {
+	border: 2px solid #f0f0f0;
+	display: block;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 5px;
+	width: 100%;
+}
+.form-control small {
+	position: absolute;
+}
+button {
+	margin-top: 15px;
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+	width: 100%;
+	border-radius: 3px;
+	font-size: 14px;
+	padding: 10px;
+	color: #eee5e5;
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+	background-color: #8e44cf;
+	color: #fdfcfa;
+	cursor: pointer;
+}
+
+small {
+	color: #f7695a;
+}
+
+.form-control.error input {
+	border-color: #f57f72;
+	background-color: #fce3e0;
+}
+.form-control.success input {
+	border-color: #2ecc71;
+}
